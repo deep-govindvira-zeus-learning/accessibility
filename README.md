@@ -1,4 +1,4 @@
-# accessibility
+# accessibility (Text Info + Audio Info)
 
 
 # Shortcuts
