@@ -13,7 +13,13 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 # Code
 
-```
+```html
+
+<button
+  aria-label="Close"
+><svg><!-- close icon --></svg>
+</button>
+
 <div
   aria-live="polite | assertive | off"
   aria-relevant="additions | removals | text | all"
