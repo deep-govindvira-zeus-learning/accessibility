@@ -15,6 +15,8 @@
 - 2.1.1 Keyboard (A) - All functionality must be operable with a keyboard alone.
 - 2.1.2 No Keyboard Trap (A) - Keyboard focus must be able to move away from any component using standard keys.
 - 2.1.4 Character Key Shortcuts (A) - Single-character shortcuts must be turn-off-able, remappable, or active only on focus
+- 2.2.1 Timing Adjustable (A) - Users must be able to turn off, adjust, or extend time limits
+
 
 # rem vv em
 
