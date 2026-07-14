@@ -22,6 +22,10 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 This will read "Latest News, region"
 
+<div role="button" tabindex="0"
+  aria-disabled="true"
+>Save<div>
+
 <button
   aria-label="Close"
 ><svg><!-- close icon --></svg>
