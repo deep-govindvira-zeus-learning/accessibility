@@ -15,6 +15,12 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 ```html
 
+<label>Email: <span aria-hidden="true">*</span>
+<input id="email" type="email" required>
+
+This will not read Email asterisk".
+This will read "Email"
+
 <input
   autocomplete="name" <!-- Expect Full Name -->
   autocomplete="given-name" <!-- Expect First Name -->
