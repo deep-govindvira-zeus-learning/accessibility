@@ -13,7 +13,8 @@
 - 1.4.12 Text Spacing (AA) - No loss of content when users override/overflow line-height to 1.5×, paragraph 2×, letter 0.12×, word 0.16×.
 - 1.4.13 Content on Hover or Focus - Tooltips/popovers on hover/focus must be dismissable, hoverable, and persistent.
 - 2.1.1 Keyboard (A) - All functionality must be operable with a keyboard alone.
-
+- 2.1.2 No Keyboard Trap (A) - Keyboard focus must be able to move away from any component using standard keys.
+- 2.1.4 Character Key Shortcuts (A) - Single-character shortcuts must be turn-off-able, remappable, or active only on focus
 
 # rem vv em
 
