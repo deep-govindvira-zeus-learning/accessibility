@@ -15,6 +15,20 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 ```html
 
+<input
+  autocomplete="name" <!-- Expect Full Name -->
+  autocomplete="given-name" <!-- Expect First Name -->
+  autocomplete="family-name"
+  autocomplete="email"
+  autocomplete="tel"
+  autocomplete="password"
+  autocomplete="current-password"
+  autocomplete="new-password"
+  autocomplete="street-address"
+  autocomplete="postal-code"
+  autocomplete="postal-code"
+>
+
 <audio controls src="audio.mp3"></audio>
 <a href="/refund-transcirpt">Read full transcript</a>
 
