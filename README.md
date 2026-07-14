@@ -8,6 +8,12 @@
 - 1.4.3 Contrast (Minimum) (AA) - Text contrast ≥4.5:1 (normal) or ≥3:1 (large: ≥18.66px bold / ≥24px)
 - 1.4.4 Resize Text (AA) - Text must scale up to 200% without loss of content or function (no horizontal scroll trap, no clipping) ( use rem/em units so text scales with browser zoom)
 - 1.4.5 Images of Text (AA) - Use real text instead of images of text when the same presentation is possible.
+- 1.4.10 Reflow (AA) - Content reflows to a single column at 320 CSS px wide (400% zoom) with no 2-D scrolling. (media queries)
+- 1.4.11 Non-text Contrast (AA) - UI components and meaningful graphics need ≥3:1 contrast against adjacent colors.
+- 1.4.12 Text Spacing (AA) - No loss of content when users override/overflow line-height to 1.5×, paragraph 2×, letter 0.12×, word 0.16×.
+- 1.4.13 Content on Hover or Focus - Tooltips/popovers on hover/focus must be dismissable, hoverable, and persistent.
+- 2.1.1 Keyboard (A) - All functionality must be operable with a keyboard alone.
+
 
 # rem vv em
 
