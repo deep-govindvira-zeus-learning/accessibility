@@ -15,6 +15,13 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 ```html
 
+<section
+  aria-labelledby="news-heading"
+><h2 id="news-heading">Latest News</h2>
+</section>
+
+This will read "Latest News, region"
+
 <button
   aria-label="Close"
 ><svg><!-- close icon --></svg>
