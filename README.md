@@ -15,6 +15,9 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 
 ```html
 
+<audio controls src="audio.mp3"></audio>
+<a href="/refund-transcirpt">Read full transcript</a>
+
 <section
   aria-labelledby="news-heading"
 ><h2 id="news-heading">Latest News</h2>
