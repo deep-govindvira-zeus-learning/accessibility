@@ -18,6 +18,20 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 <audio controls src="audio.mp3"></audio>
 <a href="/refund-transcirpt">Read full transcript</a>
 
+<video src="demo.mp4" controls>
+  <track
+      kind="subtitles | captions | descriptions | chapters | metadata"
+      src="english.vtt"
+      srclang="en"
+      label="English"
+      default>
+  <track
+      kind="subtitles | captions | descriptions | chapters | metadata"
+      src="hindi.vtt"
+      srclang="hi"
+      label="Hindi">
+</video>
+
 <section
   aria-labelledby="news-heading"
 ><h2 id="news-heading">Latest News</h2>
