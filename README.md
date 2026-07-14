@@ -20,6 +20,13 @@ https://www.w3.org/WAI/ARIA/apg/patterns/
 ><svg><!-- close icon --></svg>
 </button>
 
+<span id="title">Delete File</span>
+<button
+  aria-labelledby="title"
+>🗑️</button>
+
+This will read "Delete File, button"
+
 <div
   aria-live="polite | assertive | off"
   aria-relevant="additions | removals | text | all"
