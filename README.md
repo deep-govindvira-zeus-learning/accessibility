@@ -1,10 +1,40 @@
 # accessibility (Text Info + Audio Info)
 
-# best practices
+# rem vv em
 
 ```
 Use rem on font size, margins, paddings,
 Use em for buttons, components which should grow relative to parent.
+```
+
+### Change the font-size of parent and observer child
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>rem vs em</title>
+
+<style>
+    .parent {
+        font-size: 25px;
+    }
+    .child {
+        font-size: 2em;
+    }
+</style>
+</head>
+
+<body>
+    <div class="parent">
+        Parent Text
+        <div class="child">
+            Child Text
+        </div>
+    </div>
+</body>
+</html>
 ```
 
 # Shortcuts
