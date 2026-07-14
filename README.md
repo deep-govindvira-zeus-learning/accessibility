@@ -1,5 +1,11 @@
 # accessibility (Text Info + Audio Info)
 
+# best practices
+
+```
+Use rem on font size, margins, paddings,
+Use em for buttons, components which should grow relative to parent.
+```
 
 # Shortcuts
 
