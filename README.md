@@ -1,5 +1,12 @@
 # accessibility (Text Info + Audio Info)
 
+- 1.3.3 Sensory Characteristics (A) - No Text - Instructions must not rely solely on shape, color, size, position, orientation, or sound.
+- 1.3.4 Orientation (AA) - Content must not lock to a single orientation (portrait or landscape) unless essential
+- 1.3.5 Identify Input Purpose (AA) - Autocomplete - Inputs collecting user info must expose their purpose programmatically (HTML autocomplete tokens).
+- 1.4.1 Use of Color (A) - No text - Color must not be the only visual means of conveying info, indicating action, or distinguishing elements.
+- 1.4.2 Audio Control (A) - 3 Sec - Audio that plays automatically for >3s must have a way to pause, stop, or control volume independently
+- 1.4.3 Contrast (Minimum) (AA) - Text contrast ≥4.5:1 (normal) or ≥3:1 (large: ≥18.66px bold / ≥24px)
+
 # rem vv em
 
 ```
