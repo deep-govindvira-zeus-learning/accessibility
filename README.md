@@ -16,6 +16,16 @@
 - 2.1.2 No Keyboard Trap (A) - Keyboard focus must be able to move away from any component using standard keys.
 - 2.1.4 Character Key Shortcuts (A) - Single-character shortcuts must be turn-off-able, remappable, or active only on focus
 - 2.2.1 Timing Adjustable (A) - Users must be able to turn off, adjust, or extend time limits
+- 2.2.2 Pause, Stop, Hide (A) - Moving/blinking/auto-updating content lasting >5s must be pausable, stoppable, or hideable
+- 2.3.1 Three Flashes or Below Threshold (A) - Nothing flashes more than three times per second (or stays under the flash thresholds).
+- 2.4.1 Bypass Blocks (A) - Provide a way to skip repeated blocks (skip link, landmarks, or headings).
+- 2.4.2 Page Titled (A) - Each page has a descriptive, unique <title>
+- 2.4.3 Focus Order (A) - Focus moves in an order that preserves meaning and operability.
+- 2.4.4 Link Purpose (In Context) (A) - The purpose of each link is clear from its text or its programmatic context.
+- 2.4.5 Multiple Ways (AA) - More than one way to locate a page within a set (search, sitemap, nav, index)
+- 2.4.6 Headings and Labels (AA) - Headings and labels describe their topic or purpose.
+- 2.4.7 Focus Visible (AA) - Keyboard focus must have a visible indicator.
+- 
 
 
 # rem vv em
