@@ -25,8 +25,19 @@
 - 2.4.5 Multiple Ways (AA) - More than one way to locate a page within a set (search, sitemap, nav, index)
 - 2.4.6 Headings and Labels (AA) - Headings and labels describe their topic or purpose.
 - 2.4.7 Focus Visible (AA) - Keyboard focus must have a visible indicator.
+- 2.4.11 Focus Not Obscured (Minimum) (AA) - When an element gets focus, it is not entirely hidden by other content. (New in 2.2)
+- 2.5.1 Pointer Gestures (A) - Multipoint or path-based gestures must have a single-pointer alternative.
+- 2.5.2 Pointer Cancellation (A) - Down-event alone must not trigger actions; allow abort/undo by moving away before release.
+- 2.5.3 Label in Name (A) - A control's accessible name must contain its visible label text.
+- 2.5.4 Motion Actuation (A) - Functions triggered by device motion must also work via UI controls and be disableable.
+- 2.5.7 Dragging Movements (A) - Any drag operation must have a single-pointer alternative that isn't a drag. (New in 2.2)
+- 2.5.8 Target Size (Minimum) (AA) - Pointer targets are at least 24×24 CSS px, or have enough spacing. (New in 2.2)
+- 3.1.1 Language of Page (A) - The default human language of each page is set programmatically.
+- 3.1.2 Language of Parts (AA) - Passages in a different language are marked with their own lang attribute.
+- 3.2.1 On Focus (A) - Moving focus to a component must not trigger an unexpected change of context.
+- 3.2.2 On Input (A) - Changing a setting must not auto-trigger a context change unless the user was warned.
+- 3.2.3 Consistent Navigation (A) - Repeated navigation appears in the same relative order across pages
 - 
-
 
 # rem vv em
 
