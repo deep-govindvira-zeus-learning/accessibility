@@ -1,5 +1,13 @@
 # accessibility (Text Info + Audio Info)
 
+- 1.1.1 Non-text Content (A) - Every image, icon, chart, or control that conveys meaning needs a text alternative that serves the same purpose.
+- 1.2.1 Audio-only & Video-only (Prerecorded)
+- 1.2.2 Captions (Prerecorded)
+- 1.2.3 Audio Description or Media Alternative
+- 1.2.4 Captions (Live)
+- 1.2.5 Audio Description (Prerecorded)
+- 1.3.1 Info and Relationships
+- 1.3.2 Meaningful Sequence
 - 1.3.3 Sensory Characteristics (A) - No Text - Instructions must not rely solely on shape, color, size, position, orientation, or sound.
 - 1.3.4 Orientation (AA) - Content must not lock to a single orientation (portrait or landscape) unless essential
 - 1.3.5 Identify Input Purpose (AA) - Autocomplete - Inputs collecting user info must expose their purpose programmatically (HTML autocomplete tokens).
