@@ -45,7 +45,16 @@
 - 3.2.1 On Focus (A) - Moving focus to a component must not trigger an unexpected change of context.
 - 3.2.2 On Input (A) - Changing a setting must not auto-trigger a context change unless the user was warned.
 - 3.2.3 Consistent Navigation (A) - Repeated navigation appears in the same relative order across pages
-- 
+- 3.2.4 Consistent Identification (A) - Components with the same function are labeled consistently across the site.
+- 3.2.6 Consistent Help (A) - If help (contact, chat, FAQ link) repeats across pages, it appears in the same relative order. (New in 2.2)
+- 3.3.1 Error Identification (A) -
+- 3.3.2 Label or Instructions (A)
+- 3.3.3 Error Suggestion (AA)
+- 3.3.4 Error Prevention (AA)
+- 3.3.7 Redundant Entry
+- 3.3.8 Accessible Authentication (Minimum) - AA
+- 4.1.2 Name, Role, Value
+- 4.1.3 Status Messages
 
 # rem vv em
 
