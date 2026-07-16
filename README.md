@@ -50,9 +50,9 @@
 - 3.3.1 Error Identification (A) -
 - 3.3.2 Label or Instructions (A)
 - 3.3.3 Error Suggestion (AA)
-- 3.3.4 Error Prevention (AA)
-- 3.3.7 Redundant Entry
-- 3.3.8 Accessible Authentication (Minimum) - AA
+- 3.3.4 Error Prevention (AA) - For legal/financial/data submissions: make them reversible, checked, or confirmable.
+- 3.3.7 Redundant Entry (A) - Don't make users re-enter info they already gave in the same process. (New in 2.2)
+- 3.3.8 Accessible Authentication (Minimum) (AA) - Don't require a cognitive function test (memory, puzzle, transcription) to log in. (New in 2.2)
 - 4.1.2 Name, Role, Value
 - 4.1.3 Status Messages
 
