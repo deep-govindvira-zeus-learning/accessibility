@@ -1,13 +1,13 @@
 # accessibility (Text Info + Audio Info)
 
 - 1.1.1 Non-text Content (A) - Every image, icon, chart, or control that conveys meaning needs a text alternative that serves the same purpose.
-- 1.2.1 Audio-only & Video-only (Prerecorded)
-- 1.2.2 Captions (Prerecorded)
-- 1.2.3 Audio Description or Media Alternative
-- 1.2.4 Captions (Live)
-- 1.2.5 Audio Description (Prerecorded)
-- 1.3.1 Info and Relationships
-- 1.3.2 Meaningful Sequence
+- 1.2.1 Audio-only & Video-only (Prerecorded) (A) - Prerecorded audio-only needs a transcript; prerecorded video-only needs a transcript or audio track.
+- 1.2.2 Captions (Prerecorded) - All prerecorded video with audio must have synchronized captions.
+- 1.2.3 Audio Description or Media Alternative (A) - Prerecorded video needs either audio description of important visuals or a full text alternative.
+- 1.2.4 Captions (Live) (AA) - Live audio content in synchronized media must have real-time captions.
+- 1.2.5 Audio Description (Prerecorded) (AA) - Prerecorded video must have audio description (at AA the text-alternative loophole of 1.2.3 is closed).
+- 1.3.1 Info and Relationships (A) - Structure conveyed visually (headings, lists, tables, labels) must also be in the markup/semantics.
+- 1.3.2 Meaningful Sequence (A) - When reading order matters, the DOM order must match the meaningful order.
 - 1.3.3 Sensory Characteristics (A) - No Text - Instructions must not rely solely on shape, color, size, position, orientation, or sound.
 - 1.3.4 Orientation (AA) - Content must not lock to a single orientation (portrait or landscape) unless essential
 - 1.3.5 Identify Input Purpose (AA) - Autocomplete - Inputs collecting user info must expose their purpose programmatically (HTML autocomplete tokens).
@@ -47,14 +47,14 @@
 - 3.2.3 Consistent Navigation (A) - Repeated navigation appears in the same relative order across pages
 - 3.2.4 Consistent Identification (A) - Components with the same function are labeled consistently across the site.
 - 3.2.6 Consistent Help (A) - If help (contact, chat, FAQ link) repeats across pages, it appears in the same relative order. (New in 2.2)
-- 3.3.1 Error Identification (A) -
-- 3.3.2 Label or Instructions (A)
-- 3.3.3 Error Suggestion (AA)
+- 3.3.1 Error Identification (A) - Input errors are detected and described to the user in text.
+- 3.3.2 Label or Instructions (A) - Inputs that need user input have labels or instructions.
+- 3.3.3 Error Suggestion (AA) - If an error is detected and a correction is known, suggest it (unless it risks security).
 - 3.3.4 Error Prevention (AA) - For legal/financial/data submissions: make them reversible, checked, or confirmable.
 - 3.3.7 Redundant Entry (A) - Don't make users re-enter info they already gave in the same process. (New in 2.2)
 - 3.3.8 Accessible Authentication (Minimum) (AA) - Don't require a cognitive function test (memory, puzzle, transcription) to log in. (New in 2.2)
-- 4.1.2 Name, Role, Value
-- 4.1.3 Status Messages
+- 4.1.2 Name, Role, Value (A) - For all UI components, name + role + state/value must be programmatically determinable and settable.
+- 4.1.3 Status Messages (AA) - Status messages can be announced by assistive tech without moving focus.
 
 # rem vv em
 
